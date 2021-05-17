@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+	<font face="Comic Sans MS">
+	<body style="background-color:rgb(255, 243, 163)">
+		<h1 align="center" style="font-size:42px">ALGEBRA RELAZIONALE</h1>
+
+		<font face="Calibri Light">
+		<table align="center" border="1" cellpadding="13" cellspacing="0">
+			<h1 align="center" style="font-size:18px">Considerando la relazione <font color="crimson">ATLETI</font>,<br>supponiamo di volerne ricavare solo <font color="crimson">cognome</font>, <font color="crimson">nome</font> e <font color="crimson">codice fiscale</font>.</h1>
+			<h1 align="center" style="font-size:18px">&prod; <sub>CognomeA, NomeA, CodiceFiscaleA</sub> (ATLETI)</h1>
+			<tr>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>CognomeA</strong></td>	
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>NomeA</strong></td>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>CodiceFiscaleA</strong></td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Granger</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Hermione</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">GRNHMN79P59L840Y</td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Potter</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Harry</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">PTTHRY80L31L840G</td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Weasley</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Ron</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">WSLRNO80C01L840Y</td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Malfoy</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Draco</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">MLFDRC80H05L840J</td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Lovegood</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Luna</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">LVGLNU81B53L840C</td>
+			</tr>
+		</table>
+		
+	<br><br>
+		<font face="Calibri Light">
+		<table align="center" border="1" cellpadding="13" cellspacing="0">
+			<h1 align="center" style="font-size:18px">Considerando la relazione <font color="crimson">MAESTRI</font>,<br>supponiamo di voler ricavare solo codice <font color="crimson">ID</font> e <font color="crimson">nome</font> di quelli che insegnano nella <font color="crimson">categoria giovani</font>.</h1>
+			<h1 align="center" style="font-size:18px">&prod; <sub> IDmaestro, NomeM</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (MAESTRI) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&sigma; <sub>CategoriaInsegnamento="Giovani"</sub></h1>
+			<tr>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>IDmaesto</strong></td>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>NomeM</strong></td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">M2000002</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Severus</td>
+			</tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">M2000005</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Tom Marvolo</td>
+			</tr>
+		</table>
+	<br><br>
+		<font face="Calibri Light">
+		<table align="center" border="1" cellpadding="13" cellspacing="0">
+			<h1 align="center" style="font-size:18px">Considerando la relazione <font color="crimson">SKIPASS</font>,<br>supponiamo di voler ricavare <font color="crimson">tipologia</font> e <font color="crimson">costo</font> di quelli <font color="crimson">giornalieri</font>.</h1>
+			<h1 align="center" style="font-size:18px">&prod; <sub> Tipologia, CostoS</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SKIPASS) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&sigma; <sub>DurataS="Giornaliero"</sub></h1>
+			<tr>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>Tipologia</strong></td>
+				<td align="center" style="background-color:rgb(255, 190, 120)"><font color="white" face="Century Gothic"><strong>CostoS</strong></td>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Bambini</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">25</td>
+			</tr>
+			<tr>
+			<tr>
+			<tr>
+				<font color="black">
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">Adulti</td>
+				<td align="center" style="background-color:rgb(255, 244, 140)"><font face="Century Gothic">32</td>
+			</tr>
+		</table>
+
+
+		<br><br><br>
+		<a href="PossibileIstanza.html">
+			<input type="button" name="bottone_back" value="Back Possibile Istanza del DB">
+		</a>
+
+	</body>
+</html>
